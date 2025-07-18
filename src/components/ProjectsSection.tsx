@@ -3,26 +3,26 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "Full-stack MERN application with payment integration, real-time inventory, and admin dashboard.",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    features: ["User Authentication", "Payment Processing", "Real-time Updates", "Admin Panel"],
+    title: "Workie - Employee Management System",
+    description: "A comprehensive Spring Boot API for employee management with CRUD operations, data validation, and optimized performance achieving sub-200ms response times.",
+    technologies: ["Java", "Spring Boot", "Spring Data JPA", "H2 Database", "Maven"],
+    features: ["Complete CRUD operations for employee data", "Data validation with H2 database", "Code reliability via JUnit and Mockito", "45% improvement in data processing efficiency"],
     githubUrl: "#",
     liveUrl: "#"
   },
   {
-    title: "Task Management App",
-    description: "Collaborative project management tool with real-time collaboration and advanced filtering.",
-    technologies: ["Next.js", "TypeScript", "PostgreSQL", "Socket.io"],
-    features: ["Real-time Collaboration", "File Sharing", "Team Management", "Analytics"],
+    title: "Market Maven - AI Trading Platform",
+    description: "An AI-powered trading platform for market forecasting and currency conversion using advanced machine learning models and time series analysis.",
+    technologies: ["Java", "Spring Boot", "Python", "ARIMA", "SVR", "RNNs"],
+    features: ["85% accuracy in price forecasting", "Multiple ML models (ARIMA, SVR, RNNs)", "Time Series Analysis and Deep Learning", "Real-time currency conversion"],
     githubUrl: "#",
     liveUrl: "#"
   },
   {
-    title: "Social Media Dashboard",
-    description: "Analytics dashboard for social media management with data visualization and scheduling.",
-    technologies: ["React", "Express", "MongoDB", "Chart.js"],
-    features: ["Data Visualization", "Post Scheduling", "Analytics", "Multi-platform"],
+    title: "Client/Partner React Applications",
+    description: "Engineered React applications with unified database and admin panel, optimized for performance with Docker/Kubernetes deployment.",
+    technologies: ["React", "PostgreSQL", "Docker", "Kubernetes", "CI/CD"],
+    features: ["60% faster PostgreSQL query responses", "99.8% deployment success rate", "70% reduction in deployment time", "Automated CI/CD pipeline"],
     githubUrl: "#",
     liveUrl: "#"
   }

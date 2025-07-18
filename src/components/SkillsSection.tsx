@@ -2,33 +2,33 @@ import { Card } from "@/components/ui/card"
 
 const skills = [
   {
-    category: "Frontend",
+    category: "Languages",
     technologies: [
-      { name: "React", level: 95 },
-      { name: "TypeScript", level: 90 },
-      { name: "Next.js", level: 85 },
-      { name: "Tailwind CSS", level: 92 },
-      { name: "Three.js", level: 78 }
+      { name: "Java", level: 92 },
+      { name: "JavaScript", level: 90 },
+      { name: "Python", level: 85 },
+      { name: "HTML/CSS", level: 88 },
+      { name: "C", level: 80 }
     ]
   },
   {
-    category: "Backend",
+    category: "Frameworks",
     technologies: [
-      { name: "Node.js", level: 88 },
-      { name: "Express", level: 85 },
-      { name: "MongoDB", level: 90 },
-      { name: "PostgreSQL", level: 82 },
-      { name: "REST APIs", level: 92 }
+      { name: "Spring Boot", level: 95 },
+      { name: "React Native", level: 88 },
+      { name: "Node.js", level: 85 },
+      { name: "Express.js", level: 83 },
+      { name: "Redux.js", level: 82 }
     ]
   },
   {
-    category: "Tools & Others",
+    category: "Databases & Cloud",
     technologies: [
-      { name: "Git", level: 90 },
-      { name: "Docker", level: 75 },
-      { name: "AWS", level: 70 },
-      { name: "Figma", level: 85 },
-      { name: "Testing", level: 80 }
+      { name: "PostgreSQL", level: 90 },
+      { name: "MongoDB", level: 88 },
+      { name: "AWS", level: 85 },
+      { name: "Docker", level: 87 },
+      { name: "Kubernetes", level: 80 }
     ]
   }
 ]

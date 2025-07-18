@@ -8,8 +8,8 @@ export default function AboutSection() {
           About <span className="bg-gradient-primary bg-clip-text text-transparent">Me</span>
         </h2>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          I'm a passionate full-stack developer with expertise in modern web technologies. 
-          I love building applications that solve real-world problems.
+          Full-Stack Developer expert in Java Spring Boot, MERN Stack, and React Native. 
+          Passionate about building scalable applications that solve real-world problems.
         </p>
       </div>
       
@@ -18,24 +18,24 @@ export default function AboutSection() {
           <Card className="glass-effect p-6 hover:shadow-glow transition-all duration-300 transform hover:scale-105">
             <h3 className="text-2xl font-semibold mb-4 text-primary">Frontend Development</h3>
             <p className="text-muted-foreground">
-              Expert in React, Next.js, TypeScript, and modern CSS frameworks. 
-              I create responsive, accessible, and performant user interfaces.
+              Expert in React Native, React.js, Redux.js, and Tailwind CSS. 
+              I create responsive, accessible mobile and web applications.
             </p>
           </Card>
           
           <Card className="glass-effect p-6 hover:shadow-glow transition-all duration-300 transform hover:scale-105">
             <h3 className="text-2xl font-semibold mb-4 text-primary">Backend Development</h3>
             <p className="text-muted-foreground">
-              Proficient in Node.js, Express, MongoDB, and RESTful API design. 
-              I build scalable and secure backend systems.
+              Proficient in Java Spring Boot, Node.js, Express.js, and REST API development. 
+              Experience with multiple databases including PostgreSQL, MongoDB, and MySQL.
             </p>
           </Card>
           
           <Card className="glass-effect p-6 hover:shadow-glow transition-all duration-300 transform hover:scale-105">
-            <h3 className="text-2xl font-semibold mb-4 text-primary">Full-Stack Integration</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-primary">DevOps & Cloud</h3>
             <p className="text-muted-foreground">
-              Seamless integration between frontend and backend systems, 
-              ensuring optimal performance and user experience.
+              Experience with Docker, Kubernetes, Jenkins, and AWS services. 
+              Expertise in CI/CD pipelines and Infrastructure as Code with Terraform.
             </p>
           </Card>
         </div>
@@ -43,8 +43,12 @@ export default function AboutSection() {
         <div className="relative">
           <div className="w-full h-96 bg-gradient-secondary rounded-2xl p-8 flex items-center justify-center perspective-1000">
             <div className="transform-3d animate-rotate-3d">
-              <div className="w-32 h-32 bg-gradient-primary rounded-lg flex items-center justify-center shadow-glow">
-                <span className="text-4xl font-bold text-primary-foreground">💻</span>
+              <div className="w-48 h-48 bg-gradient-primary rounded-full flex items-center justify-center shadow-glow overflow-hidden">
+                <img 
+                  src="/lovable-uploads/f6be2257-a2b3-49f5-b896-7380f8af71c0.png" 
+                  alt="Mohit Ranjan"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -52,25 +56,25 @@ export default function AboutSection() {
           {/* Floating skill badges */}
           <div className="absolute -top-4 -left-4 animate-float">
             <div className="px-4 py-2 bg-card glass-effect rounded-full text-sm font-medium">
-              React
+              Java
             </div>
           </div>
           
           <div className="absolute top-10 -right-6 animate-float" style={{ animationDelay: '1s' }}>
             <div className="px-4 py-2 bg-card glass-effect rounded-full text-sm font-medium">
-              Node.js
+              Spring Boot
             </div>
           </div>
           
           <div className="absolute -bottom-4 left-10 animate-float" style={{ animationDelay: '2s' }}>
             <div className="px-4 py-2 bg-card glass-effect rounded-full text-sm font-medium">
-              MongoDB
+              React Native
             </div>
           </div>
           
           <div className="absolute bottom-20 -right-8 animate-float" style={{ animationDelay: '3s' }}>
             <div className="px-4 py-2 bg-card glass-effect rounded-full text-sm font-medium">
-              Express
+              AWS
             </div>
           </div>
         </div>

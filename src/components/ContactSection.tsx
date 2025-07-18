@@ -25,7 +25,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="font-semibold text-primary">Email</h3>
-                <p className="text-muted-foreground">your.email@example.com</p>
+                <p className="text-muted-foreground">mohitranjan2425@gmail.com</p>
               </div>
             </div>
           </Card>
@@ -37,7 +37,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="font-semibold text-primary">LinkedIn</h3>
-                <p className="text-muted-foreground">linkedin.com/in/yourprofile</p>
+                <p className="text-muted-foreground">linkedin.com/in/mohit-ranjan-devops</p>
               </div>
             </div>
           </Card>
@@ -49,7 +49,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="font-semibold text-primary">GitHub</h3>
-                <p className="text-muted-foreground">github.com/yourusername</p>
+                <p className="text-muted-foreground">github.com/mohit-ranjan-devops</p>
               </div>
             </div>
           </Card>
@@ -61,7 +61,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="font-semibold text-primary">Phone</h3>
-                <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                <p className="text-muted-foreground">+91-9337070591</p>
               </div>
             </div>
           </Card>

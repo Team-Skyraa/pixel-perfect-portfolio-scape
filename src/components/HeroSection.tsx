@@ -11,13 +11,13 @@ export default function HeroSection() {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 glow-text">
-            Full-Stack
-            <span className="bg-gradient-primary bg-clip-text text-transparent"> Developer</span>
+            Mohit
+            <span className="bg-gradient-primary bg-clip-text text-transparent"> Ranjan</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Crafting digital experiences with the MERN stack. 
-            Passionate about creating scalable, beautiful applications.
+            Full-Stack Developer expert in Java Spring Boot, MERN Stack, and React Native. 
+            Experience in REST API development, DBMS, and DevOps.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
