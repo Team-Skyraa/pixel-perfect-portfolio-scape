@@ -41,16 +41,12 @@ export default function AboutSection() {
         </div>
         
         <div className="relative">
-          <div className="w-full h-96 bg-gradient-secondary rounded-2xl p-8 flex items-center justify-center perspective-1000">
-            <div className="transform-3d animate-rotate-3d">
-              <div className="w-48 h-48 bg-gradient-primary rounded-full flex items-center justify-center shadow-glow overflow-hidden">
-                <img 
-                  src="/lovable-uploads/f6be2257-a2b3-49f5-b896-7380f8af71c0.png" 
-                  alt="Mohit Ranjan"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
+          <div className="w-full h-80 bg-gradient-secondary rounded-2xl p-6 flex items-center justify-center">
+            <img 
+              src="/lovable-uploads/f6be2257-a2b3-49f5-b896-7380f8af71c0.png" 
+              alt="Mohit Ranjan"
+              className="w-full h-full object-cover rounded-xl"
+            />
           </div>
           
           {/* Floating skill badges */}
